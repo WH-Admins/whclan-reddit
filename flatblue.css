@@ -269,7 +269,7 @@ header area
 /* Background image and color for the header */
 #header {
 	background: url(%%header-blue%%) no-repeat bottom left;
-	background-color: #479DD3;
+	background-color: #FFFFFF;
 	border: 0;
 }
 
@@ -281,6 +281,12 @@ NOTE: when changing this you also have to change the positioning of other elemen
 	margin: 0px;
 	margin-top: 56px;
 	margin-left: 11px;
+        display:none !important
+}
+
+.redditname{
+  height:130px;
+  vertical-align:top ! important
 }
 
 body:not(.search-page) #search input[type="text"] {
@@ -332,7 +338,7 @@ body:not(.search-page) #search input[type=submit] {
 
 .hover.pagename.redditname a {
 	display: table-cell;
-	vertical-align: bottom;
+	
 	color: #fff;
 }
 
